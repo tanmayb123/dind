@@ -20,3 +20,4 @@ RUN chmod +x /usr/local/bin/wrapdocker
 VOLUME /var/lib/docker
 CMD ["wrapdocker"]
 
+ADD ./NAE/help.html /etc/NAE/help.html
